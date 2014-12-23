@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  seq: 1
+  name: MyString
+  diamond: 1
+  sapphire: 1
+  emerald: 1
+  ruby: 1
+  onyx: 1
+
+two:
+  seq: 1
+  name: MyString
+  diamond: 1
+  sapphire: 1
+  emerald: 1
+  ruby: 1
+  onyx: 1

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  level: 1
+  bonus: 1
+  point: 1
+  diamond: 1
+  sapphire: 1
+  emerald: 1
+  ruby: 1
+  onyx: 1
+
+two:
+  level: 1
+  bonus: 1
+  point: 1
+  diamond: 1
+  sapphire: 1
+  emerald: 1
+  ruby: 1
+  onyx: 1

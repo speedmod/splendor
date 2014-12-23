@@ -1,0 +1,39 @@
+<h1>Listing developments</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Bonus</th>
+      <th>Point</th>
+      <th>Diamond</th>
+      <th>Sapphire</th>
+      <th>Emerald</th>
+      <th>Ruby</th>
+      <th>Onyx</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @developments.each do |development| %>
+      <tr>
+        <td><%= development.level %></td>
+        <td><%= development.bonus %></td>
+        <td><%= development.point %></td>
+        <td><%= development.diamond %></td>
+        <td><%= development.sapphire %></td>
+        <td><%= development.emerald %></td>
+        <td><%= development.ruby %></td>
+        <td><%= development.onyx %></td>
+        <td><%= link_to 'Show', development %></td>
+        <td><%= link_to 'Edit', edit_development_path(development) %></td>
+        <td><%= link_to 'Destroy', development, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Development', new_development_path %>

@@ -1,0 +1,36 @@
+<table>
+  <tr>
+    <th>level1</th>
+  </tr>
+  <% @devs_1.first(4).each do |d| %>
+    <% if d.present? %>
+      <tr>
+	<td><%= d.to_s %></td>
+      </tr>
+    <% end %>
+  <% end %>
+</table>  
+<table>
+  <tr>
+    <th>level2</th>
+  </tr>
+  <% @devs_2.first(4).each do |d| %>
+    <% if d.present? %>
+      <tr>
+	<td><%= d.to_s %></td>
+      </tr>
+    <% end %>
+  <% end %>
+</table>  
+<table>
+  <tr>
+    <th>level3</th>
+  </tr>
+  <% @devs_3.first(4).each do |d| %>
+    <% if d.present? %>
+      <tr>
+	<td><%= d.to_s %></td>
+      </tr>
+    <% end %>
+  <% end %>
+</table>  
